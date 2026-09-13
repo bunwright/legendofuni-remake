@@ -1,0 +1,500 @@
+{
+  "provenance": {
+    "title": "刘慈欣群星传",
+    "author": "傲雪小组 / Tormoo",
+    "sourceRelease": "2009-04-19",
+    "notice": "仅抽取源码中实际存在的内容。发行版 INI、剧情、美术及音乐不在源码包中。",
+    "sha256": {
+      "TecTreeManager.cpp": "1e36cb2c299e74f603dfe25614f19bc18869d4be556560ce6faad9c0db4ea0cc",
+      "PersonManager.cpp": "9c001343985f34726c0d500b8e9e7f04db62dd9de0eb95e66cfb7ed149ecc2a1",
+      "AlienCiviManager.cpp": "32cbe9dda930f76c76ca201adafb4f2056b2e46c65969ac2c1fbc585d3bdfc80",
+      "WeaponManager.cpp": "df97cb92104ea4273c9d32945151a754da2e5553068dfc3c318e25b874e2fb5b",
+      "City.cpp": "886797e24e8a30f0ae3a66eba1a6de6ee7cda81a348ec9942829b4b683f9bce9",
+      "AlignmentDlg.cpp": "048174403db74660157a7094b90d801796917cd2c7be59b8230b81e0f15673c3"
+    }
+  },
+  "technologies": [
+    {
+      "id": "宇宙社会学公理",
+      "parent": null,
+      "branch": "sociology",
+      "work": 100,
+      "cost": 10,
+      "description": "用于与外星文明的谈判。\n1.生存是文明的第一需求。2.文明不断增长和扩张，但宇宙中的物质总量保持不变。"
+    },
+    {
+      "id": "技术爆炸理论",
+      "parent": "宇宙社会学公理",
+      "branch": "sociology",
+      "work": 150,
+      "cost": 50,
+      "description": "用于与外星文明的谈判。\n文明可能在短期内出现技术的巨大突破。"
+    },
+    {
+      "id": "猜疑链",
+      "parent": "技术爆炸理论",
+      "branch": "sociology",
+      "work": 230,
+      "cost": 100,
+      "description": "用于与外星文明的谈判。\n文明之间无法确定对方是否善意。"
+    },
+    {
+      "id": "黑暗森林理论",
+      "parent": "猜疑链",
+      "branch": "sociology",
+      "work": 300,
+      "cost": 20,
+      "description": "用于与外星文明的谈判。\n宇宙就是一座黑暗森林，每个文明都是带枪的猎人。"
+    },
+    {
+      "id": "种族沟通",
+      "parent": "猜疑链",
+      "branch": "sociology",
+      "work": 500,
+      "cost": 300,
+      "description": "用于与外星文明的谈判。\n与其它外星文明沟通的通用技巧。"
+    },
+    {
+      "id": "小行星级氢弹",
+      "parent": null,
+      "branch": "nuclear",
+      "work": 100,
+      "cost": 30,
+      "description": "生产小行星级氢弹的技术。"
+    },
+    {
+      "id": "宏原子聚变",
+      "parent": null,
+      "branch": "nuclear",
+      "work": 100,
+      "cost": 10,
+      "description": "使宏观原子发生聚变的技术。"
+    },
+    {
+      "id": "行星级氢弹",
+      "parent": "小行星级氢弹",
+      "branch": "nuclear",
+      "work": 180,
+      "cost": 60,
+      "description": "生产行星级氢弹的技术。"
+    },
+    {
+      "id": "恒星级氢弹",
+      "parent": "行星级氢弹",
+      "branch": "nuclear",
+      "work": 250,
+      "cost": 120,
+      "description": "生产恒星级氢弹的技术。"
+    },
+    {
+      "id": "球状闪电",
+      "parent": "宏原子聚变",
+      "branch": "nuclear",
+      "work": 300,
+      "cost": 150,
+      "description": "生产球状闪电的技术。"
+    },
+    {
+      "id": "宏化部队",
+      "parent": "球状闪电",
+      "branch": "nuclear",
+      "work": 500,
+      "cost": 200,
+      "description": "生产宏化部队的技术"
+    },
+    {
+      "id": "10%光速飞船",
+      "parent": null,
+      "branch": "spaceflight",
+      "work": 100,
+      "cost": 30,
+      "description": "登陆50光年空间范围的技术，并能生产小型战舰。"
+    },
+    {
+      "id": "行星开发Ⅰ",
+      "parent": null,
+      "branch": "spaceflight",
+      "work": 100,
+      "cost": 20,
+      "description": "在行星上建造采矿工厂的技术"
+    },
+    {
+      "id": "行星建设Ⅰ",
+      "parent": null,
+      "branch": "spaceflight",
+      "work": 100,
+      "cost": 20,
+      "description": "在行星上建造加工工厂的技术"
+    },
+    {
+      "id": "行星殖民Ⅰ",
+      "parent": null,
+      "branch": "spaceflight",
+      "work": 100,
+      "cost": 20,
+      "description": "在行星上建造城市的技术"
+    },
+    {
+      "id": "50%光速飞船",
+      "parent": "10%光速飞船",
+      "branch": "spaceflight",
+      "work": 150,
+      "cost": 50,
+      "description": "登陆1万光年空间范围的技术，并能生产中型战舰。"
+    },
+    {
+      "id": "99%光速飞船",
+      "parent": "50%光速飞船",
+      "branch": "spaceflight",
+      "work": 230,
+      "cost": 100,
+      "description": "登陆银河系空间范围的技术，并能生产巨型战舰。"
+    },
+    {
+      "id": "恒星开发Ⅰ",
+      "parent": "50%光速飞船",
+      "branch": "spaceflight",
+      "work": 200,
+      "cost": 100,
+      "description": "在恒星上建造采矿工厂的技术"
+    },
+    {
+      "id": "行星开发Ⅱ",
+      "parent": "行星开发Ⅰ",
+      "branch": "spaceflight",
+      "work": 120,
+      "cost": 50,
+      "description": "提高建造行星采矿工厂的速度。"
+    },
+    {
+      "id": "行星开发Ⅲ",
+      "parent": "行星开发Ⅱ",
+      "branch": "spaceflight",
+      "work": 150,
+      "cost": 80,
+      "description": "进一步提高建造行星采矿工厂的速度。"
+    },
+    {
+      "id": "行星建设Ⅱ",
+      "parent": "行星建设Ⅰ",
+      "branch": "spaceflight",
+      "work": 120,
+      "cost": 50,
+      "description": "提高建造加工工厂的速度。"
+    },
+    {
+      "id": "行星建设Ⅲ",
+      "parent": "行星建设Ⅱ",
+      "branch": "spaceflight",
+      "work": 150,
+      "cost": 80,
+      "description": "进一步提高建造加工工厂的速度。"
+    },
+    {
+      "id": "行星殖民Ⅱ",
+      "parent": "行星殖民Ⅰ",
+      "branch": "spaceflight",
+      "work": 120,
+      "cost": 50,
+      "description": "提高建造城市的速度。"
+    },
+    {
+      "id": "行星殖民Ⅲ",
+      "parent": "行星殖民Ⅱ",
+      "branch": "spaceflight",
+      "work": 150,
+      "cost": 80,
+      "description": "进一步提高建造城市的速度。"
+    },
+    {
+      "id": "恒星开发Ⅱ",
+      "parent": "恒星开发Ⅰ",
+      "branch": "spaceflight",
+      "work": 220,
+      "cost": 120,
+      "description": "提高建造恒星采矿工厂的速度。"
+    },
+    {
+      "id": "恒星开发Ⅲ",
+      "parent": "恒星开发Ⅱ",
+      "branch": "spaceflight",
+      "work": 250,
+      "cost": 150,
+      "description": "进一步提高建造恒星采矿工厂的速度。"
+    },
+    {
+      "id": "质子3维展开",
+      "parent": null,
+      "branch": "proton",
+      "work": 150,
+      "cost": 50,
+      "description": "将质子在3个维度内展开的技术。"
+    },
+    {
+      "id": "质子6维展开",
+      "parent": "质子3维展开",
+      "branch": "proton",
+      "work": 180,
+      "cost": 80,
+      "description": "将质子在6个维度内展开的技术。"
+    },
+    {
+      "id": "质子9维展开",
+      "parent": "质子6维展开",
+      "branch": "proton",
+      "work": 230,
+      "cost": 150,
+      "description": "将质子在9个维度内展开的技术。"
+    },
+    {
+      "id": "智子",
+      "parent": "质子6维展开",
+      "branch": "proton",
+      "work": 250,
+      "cost": 170,
+      "description": "生产智子的技术。智子可以监测出其它文明星球的军事实力。"
+    },
+    {
+      "id": "质子11维展开",
+      "parent": "质子9维展开",
+      "branch": "proton",
+      "work": 300,
+      "cost": 200,
+      "description": "将质子在11个维度内展开的技术。"
+    },
+    {
+      "id": "奇点炸弹",
+      "parent": "质子9维展开",
+      "branch": "proton",
+      "work": 300,
+      "cost": 500,
+      "description": "生产奇点炸弹的技术。奇点炸弹可以直接将一颗星球摧毁。"
+    },
+    {
+      "id": "质能转换",
+      "parent": "质子11维展开",
+      "branch": "proton",
+      "work": 500,
+      "cost": 400,
+      "description": "掌握该技术，生产经济将不消耗资源。"
+    },
+    {
+      "id": "50光年望远镜",
+      "parent": null,
+      "branch": "astrophysics",
+      "work": 100,
+      "cost": 50,
+      "description": "查看50光年空间范围星图的技术"
+    },
+    {
+      "id": "太阳电波放大(50光年)",
+      "parent": null,
+      "branch": "astrophysics",
+      "work": 100,
+      "cost": 20,
+      "description": "在星图上用颜色标识50光年空间范围内星球属性的技术"
+    },
+    {
+      "id": "1万光年望远镜",
+      "parent": "50光年望远镜",
+      "branch": "astrophysics",
+      "work": 200,
+      "cost": 100,
+      "description": "查看1万光年空间范围星图的技术"
+    },
+    {
+      "id": "太阳电波放大(1万光年)",
+      "parent": "太阳电波放大(50光年)",
+      "branch": "astrophysics",
+      "work": 200,
+      "cost": 50,
+      "description": "在星图上用颜色标识1万光年空间范围内星球属性的技术"
+    },
+    {
+      "id": "银河系望远镜",
+      "parent": "1万光年望远镜",
+      "branch": "astrophysics",
+      "work": 300,
+      "cost": 150,
+      "description": "查看银河系空间范围星图的技术"
+    },
+    {
+      "id": "太阳电波放大(银河系)",
+      "parent": "太阳电波放大(1万光年)",
+      "branch": "astrophysics",
+      "work": 300,
+      "cost": 100,
+      "description": "在星图上用颜色标识银河系空间范围内星球属性的技术"
+    },
+    {
+      "id": "思想钢印Ⅰ",
+      "parent": null,
+      "branch": "culture",
+      "work": 100,
+      "cost": 30,
+      "description": "一种通过思想控制提高文化增长率的技术"
+    },
+    {
+      "id": "人口Ⅰ",
+      "parent": null,
+      "branch": "culture",
+      "work": 100,
+      "cost": 30,
+      "description": "提高人口出生率的技术"
+    },
+    {
+      "id": "思想钢印Ⅱ",
+      "parent": "思想钢印Ⅰ",
+      "branch": "culture",
+      "work": 200,
+      "cost": 70,
+      "description": "一种通过思想控制提高文化增长率的技术（强化）"
+    },
+    {
+      "id": "思想钢印Ⅲ",
+      "parent": "思想钢印Ⅱ",
+      "branch": "culture",
+      "work": 300,
+      "cost": 140,
+      "description": "一种通过思想控制提高文化增长率的技术（超强化）"
+    },
+    {
+      "id": "人口Ⅱ",
+      "parent": "人口Ⅰ",
+      "branch": "culture",
+      "work": 200,
+      "cost": 70,
+      "description": "提高人口出生率的技术（强化）"
+    },
+    {
+      "id": "人口Ⅲ",
+      "parent": "人口Ⅱ",
+      "branch": "culture",
+      "work": 300,
+      "cost": 140,
+      "description": "提高人口出生率的技术（超强化）"
+    },
+    {
+      "id": "采矿技术Ⅰ",
+      "parent": null,
+      "branch": "economy",
+      "work": 100,
+      "cost": 30,
+      "description": "提高采矿效率的技术"
+    },
+    {
+      "id": "生产技术Ⅰ",
+      "parent": null,
+      "branch": "economy",
+      "work": 100,
+      "cost": 30,
+      "description": "提高经济生产效率的技术"
+    },
+    {
+      "id": "采矿技术Ⅱ",
+      "parent": "采矿技术Ⅰ",
+      "branch": "economy",
+      "work": 200,
+      "cost": 70,
+      "description": "进一步提高采矿效率的技术"
+    },
+    {
+      "id": "采矿技术Ⅲ",
+      "parent": "采矿技术Ⅱ",
+      "branch": "economy",
+      "work": 300,
+      "cost": 140,
+      "description": "更进一步提高采矿效率的技术"
+    },
+    {
+      "id": "生产技术Ⅱ",
+      "parent": "生产技术Ⅰ",
+      "branch": "economy",
+      "work": 200,
+      "cost": 70,
+      "description": "进一步提高经济生产效率的技术"
+    },
+    {
+      "id": "生产技术Ⅲ",
+      "parent": "生产技术Ⅱ",
+      "branch": "economy",
+      "work": 300,
+      "cost": 140,
+      "description": "更一步提高经济生产效率的技术"
+    }
+  ],
+  "peopleNames": [
+    "丁仪",
+    "罗辑",
+    "林云",
+    "杨冬",
+    "叶文洁",
+    "大史",
+    "伊依",
+    "汪淼",
+    "沈渊",
+    "霍金",
+    "常伟思",
+    "庄颜",
+    "章北海",
+    "水娃",
+    "华华",
+    "希恩斯",
+    "雷迪亚兹",
+    "泰勒",
+    "伊文斯",
+    "东方延绪",
+    "雷志成",
+    "杨卫宁",
+    "严井",
+    "白冰",
+    "苗福全",
+    "滑膛",
+    "朱汉扬",
+    "刘慈欣"
+  ],
+  "alienNames": [
+    "吞食帝国",
+    "三体文明",
+    "李白文明",
+    "碎星者",
+    "排险者",
+    "碳基联邦",
+    "上帝文明",
+    "哥哥文明",
+    "低温艺术家",
+    "波江座文明",
+    "绿洋星文明"
+  ],
+  "weaponNames": [
+    "小型战舰",
+    "中型战舰",
+    "巨型战舰",
+    "宏化部队",
+    "球状闪电",
+    "小行星级氢弹",
+    "行星级氢弹",
+    "恒星级氢弹",
+    "智子",
+    "奇点炸弹"
+  ],
+  "discoveryQuotes": [
+    "美妙人生的关键在于你能迷上什么东西。",
+    "在一个不可知的宇宙里，我的心脏懒得跳动了。",
+    "宇宙的最不可理解之处在于它是可以理解的；宇宙的最可理解之处在于它是不可理解的。",
+    "我们都是阴沟里的虫子，但总还是得有人仰望星空。",
+    "我们必须抱有希望，这并不是因为希望真的存在，而是因为我们要做高贵的人 。",
+    "我很不幸地不麻木, 所以难以生存下去。",
+    "理想主义者和玩世不恭的人都觉得对方很可怜，可他们实际都很幸运。每一种生活方式都是合理的，不需要相互理解。",
+    "现在人们应该明白了，就算真的有上帝，他也一定是个王八蛋。",
+    "世界上有很多东西值得为之献出生命,但没有东西值得为之睡觉。",
+    "有的人满足于老婆孩子热炕头，从不向与己无关的尘世之外扫一眼；有的人则用尽全部生命，只为看一眼人类从未见过的事物。这两种人我都做过，但我知道现在我该选择什么。"
+  ],
+  "diplomacyQuestions": [
+    "%s执政官：尊贵的客人，你应该知道“生存是文明的第一需要，文明不断扩张，但宇宙中物质问题不变”的道理吧？",
+    "%s执政官：你要有足够理由让我相信你们地球文明有可能成为一个强大的文明。",
+    "%s执政官：我们凭什么信得过你？",
+    "%s执政官：这宇宙就像一座黑暗森林，每个文明都是带枪的猎人。你们得拥有强大的理论工具才是靠得住的。",
+    "%s执政官：你我两种不同的文明有着天壤之别的价值标准，地球人学会与异种生物的沟通技术了吗？"
+  ]
+}

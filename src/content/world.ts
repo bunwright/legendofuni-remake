@@ -1,5 +1,5 @@
-import legacy from './legacy.generated.json';
-import runtime from './runtime.generated.json';
+import legacy from './legacy.generated.json' with { type: 'json' };
+import runtime from './runtime.generated.json' with { type: 'json' };
 import type {
   Branch,
   BuildingKind,

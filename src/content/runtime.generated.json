@@ -1,0 +1,1364 @@
+{
+  "provenance": {
+    "source": "User-provided original lou_game runtime distribution",
+    "notice": "原始数值、剧情和素材已恢复。仅导入数据、图片和音乐；未运行或复制发行包中的任何可执行文件。",
+    "sha256": {
+      "person.ini": "98f2a4790784c26b6d96c16a3cc27c3c1b05282a72f367d5a1ebf628c15d3f75",
+      "star.ini": "fba47cefb981af84c8c97ebb2f569fbff398aff4f53dfef04e42f75b1adaace6",
+      "alien.ini": "34a021191a4f70fdca2a31de5105f4927142eced7efefb991063173fd7c1d470",
+      "weapon.ini": "adb216799a7b2cb9a334a9467d444e8287b6f09e857cac6c8e3176a049cec1d2",
+      "gameevent.ini": "7eab725c3dfc2b183356d269198ac0a7453c02a9793c40e800a5cbbdd05a6e02",
+      "randomevent.ini": "70a7d8471ee1a9efdf4d0bd2a7a2c30a813017cc7111494bf7d5048a50a03833",
+      "music.ini": "6b767a5c39b296537d8c63cfd0156b5180ac14ad90cf22775a1c5a1c352c6336"
+    },
+    "authorNote": "我自己有一句很自以为然的“格言”：崇拜一个人最好的表达方式就是成为他。但是，我相信我是成为不了刘慈欣的。我曾经构思过一个科幻故事，并设法把它付诸笔端，可是最终我实在没有毅力把它写完，只留下存在电脑中的2000字的草稿。舞文弄墨的技能已经被我慢慢遗失，而作为一个每天写的代码比写的汉字还要多的软件工程师，作为一个每天使用C++语言的时间比使用汉语言还要多的职业程序员，我想，用电脑游戏的方式向我心中的大神致敬应该是更可爱些的方式吧。\r\n\r\n我的本职工作并非游戏程序员，我只是一个业余游戏开发爱好者，这几年下来也有几个作品问世（大家可以在我的主页 http://www.ourshow2003.com 看到）。对我这样的人，说难听点叫做“山寨游戏制作者”，说好听点叫做“民间艺人”，不过我更喜欢后者的称呼。这款游戏的问世说起来确实是源于冲动。之前我一直在开发一款叫“杀死乔峰”的ARPG游戏，但到9月底的时候，在百度刘慈欣吧与网友交流的时候，我发现刘慈欣的作品构建的宇宙观非常适合于游戏。我忍耐不住脑中源源不断冒出的构思，便把它们全记了下来，然后觉得，可以花一点时间做一个DEMO出来，这个DEMO不需要花哨的图像和震憾的音乐，只要有游戏的逻辑与设定，让玩家能玩出个所以然来。于是十一长假，我便开工了。最初的想法是利用十一的七天假期完成，但后来游戏的设定越改越复杂，项目也越来越延期，最终的完工是在十二月底，前后共三个月。\r\n\r\n希望这款游戏能表达我对大刘的敬意，也希望这款游戏能给玩家带来快乐。十一月份的时候，百度刘慈欣吧举行了一次大刘的见面会，当时我向大刘提了一个问题：您是一个有如您作品中主角一般的纯理想主义者吗？大刘的回答是：“绝对不是。”但很遗憾，我是。所以我对大刘笔下的那些充满理想主义的人物们有着深刻的共鸣。每个人都希望有一个美妙的人生，但我更愿意以大刘所描述的方式度过：\r\n\r\n“ 过一个美妙的人生并不难，听爸爸教你：你选一个公认的世界难题，最好是只用一张纸和一只铅笔的数学难题，比如歌德巴赫猜想或费尔马大定理什么的，或连纸笔都不要的纯自然哲学难题，比如宇宙的本源之类，投入全部身心钻研，只问耕耘不问收获，不知不觉的专注中，一辈子也就过去了。人们常说的寄托，也就是这么回事。或是相反，把挣钱作为惟一的目标，所有的时间都想着怎么挣，也不问挣来干什么用，到死的时候像葛朗台一样抱者一堆金币说：啊，真暖和啊……所以，美妙人生的关键在于你能迷上什么东西。 ”　－－《球状闪电》\r\n\r\n开发游戏是艰辛的，希望大家能够体谅，如果您愿意资助我，我将万分感激；如果您能帮我宣传这款游戏，我也会为此感动。另外，希望大家能继续关注我的下一款游戏：《杀死乔峰》\r\n\r\n另外，我也希望和游戏制作爱好者成为朋友，如果再来一个关卡设计师、一个美术设计师、最好再一个CEO，我想我们的游戏会做得更加出色。\r\n\r\n附：\r\n游戏中的隐义：\r\n联合国秘书长卡马克：这是向约翰卡马克致敬。\r\n可口可乐为2月27日生的人赠送免费可乐：这是我的生日。\r\n刘慈欣的逃亡值是50：曾有网友质疑这点，我的解释是我无法判明大刘的逃亡倾向，所以只能折中给个50了。\r\n刘慈欣想送给游戏作者一部签名版的《三体3》：嗯，这个设定的隐义是......呵呵。\r\n\r\n另外，出于娱乐精神，我把我自己的照片作为了游戏中一个人物的头像，你能找到吗？ :)\r\n\r\n祝您游戏愉快！\r\n\r\n\r\nTormoo\r\n2009-1-11　于杭州",
+    "moddingNote": "我非常希望你能为“刘慈欣群星传”加入新的内容，你可以这样做：\r\n\r\n在游戏目录的data目录下，存放着游戏数据，用记事本打开，你就可以修改它们了，每个文件里都有注释，修改它们并不困难。\r\nmusic.ini ： 播放的背景音乐列表\r\nperson.ini ： 人物数据\r\ngameevent.ini ： 游戏事件数据\r\nrandomevent.ini ： 随机事件数据\r\nalien.ini ： 外星文明数据\r\nweapon.ini ： 武器数据\r\nstar.ini ： 星球数据\r\n\r\n在游戏目录的 images 目录下，存放着游戏中用到的图片资源，你也可以修改它们，把人物换个你喜欢的头像吧。\r\n\r\n如果你是一位使用C++的程序员，则可以通过修改源代码来进行游戏的修改。“刘慈欣群星传”是一款开源的游戏，我很希望看到你的修改能献给玩家一个更完美的游戏世界。你可以在这里下载到“刘慈欣群星传”的源代码： http://www.ourshow2003.com/lou\r\n\r\n好了，朋友，放手大干一场吧 :-)"
+  },
+  "people": [
+    {
+      "id": "丁仪",
+      "army": 10,
+      "economy": 10,
+      "art": 70,
+      "science": 100,
+      "treachery": 0,
+      "leadership": 20,
+      "social": 30
+    },
+    {
+      "id": "罗辑",
+      "army": 50,
+      "economy": 60,
+      "art": 70,
+      "science": 80,
+      "treachery": 20,
+      "leadership": 60,
+      "social": 60
+    },
+    {
+      "id": "林云",
+      "army": 85,
+      "economy": 20,
+      "art": 50,
+      "science": 70,
+      "treachery": 3,
+      "leadership": 70,
+      "social": 70
+    },
+    {
+      "id": "杨冬",
+      "army": 10,
+      "economy": 50,
+      "art": 60,
+      "science": 85,
+      "treachery": 50,
+      "leadership": 30,
+      "social": 40
+    },
+    {
+      "id": "叶文洁",
+      "army": 70,
+      "economy": 60,
+      "art": 65,
+      "science": 70,
+      "treachery": 80,
+      "leadership": 73,
+      "social": 68
+    },
+    {
+      "id": "大史",
+      "army": 80,
+      "economy": 20,
+      "art": 10,
+      "science": 30,
+      "treachery": 10,
+      "leadership": 80,
+      "social": 95
+    },
+    {
+      "id": "伊依",
+      "army": 5,
+      "economy": 30,
+      "art": 96,
+      "science": 12,
+      "treachery": 15,
+      "leadership": 6,
+      "social": 70
+    },
+    {
+      "id": "汪淼",
+      "army": 20,
+      "economy": 30,
+      "art": 40,
+      "science": 85,
+      "treachery": 40,
+      "leadership": 50,
+      "social": 50
+    },
+    {
+      "id": "沈渊",
+      "army": 60,
+      "economy": 30,
+      "art": 50,
+      "science": 80,
+      "treachery": 70,
+      "leadership": 50,
+      "social": 40
+    },
+    {
+      "id": "霍金",
+      "army": 0,
+      "economy": 0,
+      "art": 90,
+      "science": 100,
+      "treachery": 0,
+      "leadership": 50,
+      "social": 0
+    },
+    {
+      "id": "常伟思",
+      "army": 80,
+      "economy": 30,
+      "art": 10,
+      "science": 10,
+      "treachery": 10,
+      "leadership": 80,
+      "social": 60
+    },
+    {
+      "id": "庄颜",
+      "army": 0,
+      "economy": 20,
+      "art": 86,
+      "science": 20,
+      "treachery": 20,
+      "leadership": 5,
+      "social": 12
+    },
+    {
+      "id": "章北海",
+      "army": 95,
+      "economy": 45,
+      "art": 60,
+      "science": 30,
+      "treachery": 90,
+      "leadership": 90,
+      "social": 70
+    },
+    {
+      "id": "水娃",
+      "army": 10,
+      "economy": 10,
+      "art": 10,
+      "science": 20,
+      "treachery": 0,
+      "leadership": 20,
+      "social": 80
+    },
+    {
+      "id": "华华",
+      "army": 70,
+      "economy": 60,
+      "art": 60,
+      "science": 50,
+      "treachery": 30,
+      "leadership": 90,
+      "social": 40
+    },
+    {
+      "id": "希恩斯",
+      "army": 30,
+      "economy": 50,
+      "art": 60,
+      "science": 80,
+      "treachery": 80,
+      "leadership": 30,
+      "social": 30
+    },
+    {
+      "id": "雷迪亚兹",
+      "army": 86,
+      "economy": 65,
+      "art": 32,
+      "science": 54,
+      "treachery": 60,
+      "leadership": 70,
+      "social": 80
+    },
+    {
+      "id": "泰勒",
+      "army": 80,
+      "economy": 80,
+      "art": 65,
+      "science": 50,
+      "treachery": 40,
+      "leadership": 90,
+      "social": 60
+    },
+    {
+      "id": "伊文斯",
+      "army": 80,
+      "economy": 60,
+      "art": 70,
+      "science": 70,
+      "treachery": 100,
+      "leadership": 80,
+      "social": 70
+    },
+    {
+      "id": "东方延绪",
+      "army": 90,
+      "economy": 50,
+      "art": 60,
+      "science": 60,
+      "treachery": 40,
+      "leadership": 70,
+      "social": 50
+    },
+    {
+      "id": "雷志成",
+      "army": 60,
+      "economy": 30,
+      "art": 30,
+      "science": 60,
+      "treachery": 60,
+      "leadership": 70,
+      "social": 50
+    },
+    {
+      "id": "杨卫宁",
+      "army": 60,
+      "economy": 40,
+      "art": 60,
+      "science": 75,
+      "treachery": 50,
+      "leadership": 50,
+      "social": 20
+    },
+    {
+      "id": "严井",
+      "army": 20,
+      "economy": 50,
+      "art": 70,
+      "science": 80,
+      "treachery": 30,
+      "leadership": 30,
+      "social": 20
+    },
+    {
+      "id": "白冰",
+      "army": 20,
+      "economy": 60,
+      "art": 60,
+      "science": 68,
+      "treachery": 80,
+      "leadership": 20,
+      "social": 50
+    },
+    {
+      "id": "苗福全",
+      "army": 30,
+      "economy": 90,
+      "art": 20,
+      "science": 10,
+      "treachery": 60,
+      "leadership": 70,
+      "social": 78
+    },
+    {
+      "id": "滑膛",
+      "army": 70,
+      "economy": 40,
+      "art": 50,
+      "science": 10,
+      "treachery": 80,
+      "leadership": 10,
+      "social": 90
+    },
+    {
+      "id": "朱汉扬",
+      "army": 20,
+      "economy": 95,
+      "art": 60,
+      "science": 60,
+      "treachery": 70,
+      "leadership": 80,
+      "social": 60
+    },
+    {
+      "id": "刘慈欣",
+      "army": 80,
+      "economy": 50,
+      "art": 80,
+      "science": 80,
+      "treachery": 50,
+      "leadership": 40,
+      "social": 40
+    }
+  ],
+  "stars": [
+    {
+      "index": 0,
+      "name": "地球",
+      "sector": 0,
+      "resource": 1000,
+      "planet": true,
+      "capacity": 120
+    },
+    {
+      "index": 1,
+      "name": "太阳",
+      "sector": 0,
+      "resource": 10000,
+      "planet": false,
+      "capacity": 0
+    },
+    {
+      "index": 2,
+      "name": "水星",
+      "sector": 0,
+      "resource": 500,
+      "planet": true,
+      "capacity": 60
+    },
+    {
+      "index": 3,
+      "name": "金星",
+      "sector": 0,
+      "resource": 550,
+      "planet": true,
+      "capacity": 70
+    },
+    {
+      "index": 4,
+      "name": "火星",
+      "sector": 0,
+      "resource": 1000,
+      "planet": true,
+      "capacity": 100
+    },
+    {
+      "index": 5,
+      "name": "木星",
+      "sector": 0,
+      "resource": 2000,
+      "planet": true,
+      "capacity": 20
+    },
+    {
+      "index": 6,
+      "name": "土星",
+      "sector": 0,
+      "resource": 1900,
+      "planet": true,
+      "capacity": 20
+    },
+    {
+      "index": 7,
+      "name": "天王星",
+      "sector": 0,
+      "resource": 1000,
+      "planet": true,
+      "capacity": 50
+    },
+    {
+      "index": 8,
+      "name": "海王星",
+      "sector": 0,
+      "resource": 1100,
+      "planet": true,
+      "capacity": 50
+    },
+    {
+      "index": 9,
+      "name": "银河饲养场",
+      "sector": 1,
+      "resource": 2000,
+      "planet": true,
+      "capacity": 200
+    },
+    {
+      "index": 10,
+      "name": "半人马a星",
+      "sector": 1,
+      "resource": 200,
+      "planet": true,
+      "capacity": 50
+    },
+    {
+      "index": 11,
+      "name": "诗云星",
+      "sector": 3,
+      "resource": 3000,
+      "planet": true,
+      "capacity": 500
+    },
+    {
+      "index": 12,
+      "name": "968J3X1星",
+      "sector": 2,
+      "resource": 3000,
+      "planet": true,
+      "capacity": 500
+    },
+    {
+      "index": 13,
+      "name": "赛伯拉星",
+      "sector": 3,
+      "resource": 2000,
+      "planet": true,
+      "capacity": 400
+    },
+    {
+      "index": 14,
+      "name": "旋臂之心",
+      "sector": 2,
+      "resource": 200,
+      "planet": true,
+      "capacity": 300
+    },
+    {
+      "index": 15,
+      "name": "太苍星",
+      "sector": 2,
+      "resource": 500,
+      "planet": true,
+      "capacity": 200
+    },
+    {
+      "index": 16,
+      "name": "第一地球",
+      "sector": 1,
+      "resource": 1500,
+      "planet": true,
+      "capacity": 260
+    },
+    {
+      "index": 17,
+      "name": "寒泽星",
+      "sector": 3,
+      "resource": 100,
+      "planet": true,
+      "capacity": 60
+    },
+    {
+      "index": 18,
+      "name": "波江座e星",
+      "sector": 1,
+      "resource": 1000,
+      "planet": true,
+      "capacity": 600
+    },
+    {
+      "index": 19,
+      "name": "绿洋星",
+      "sector": 1,
+      "resource": 1040,
+      "planet": true,
+      "capacity": 700
+    },
+    {
+      "index": 20,
+      "name": "那美克星",
+      "sector": 1,
+      "resource": 19000,
+      "planet": true,
+      "capacity": 300
+    },
+    {
+      "index": 21,
+      "name": "赛博特恩",
+      "sector": 2,
+      "resource": 9000,
+      "planet": true,
+      "capacity": 10000
+    },
+    {
+      "index": 22,
+      "name": "天狼星",
+      "sector": 2,
+      "resource": 30000,
+      "planet": false,
+      "capacity": 0
+    }
+  ],
+  "aliens": [
+    {
+      "id": "alien-0",
+      "name": "吞食帝国",
+      "population": 30,
+      "army": 30,
+      "level": 1,
+      "starIndex": 9
+    },
+    {
+      "id": "alien-1",
+      "name": "三体文明",
+      "population": 200,
+      "army": 50,
+      "level": 2,
+      "starIndex": 10
+    },
+    {
+      "id": "alien-2",
+      "name": "李白文明",
+      "population": 1000,
+      "army": 500,
+      "level": 4,
+      "starIndex": 11
+    },
+    {
+      "id": "alien-3",
+      "name": "碎星者",
+      "population": 1000,
+      "army": 300,
+      "level": 3,
+      "starIndex": 12
+    },
+    {
+      "id": "alien-4",
+      "name": "排险者",
+      "population": 800,
+      "army": 600,
+      "level": 4,
+      "starIndex": 13
+    },
+    {
+      "id": "alien-5",
+      "name": "碳基联邦",
+      "population": 400,
+      "army": 30,
+      "level": 2,
+      "starIndex": 14
+    },
+    {
+      "id": "alien-6",
+      "name": "上帝文明",
+      "population": 200,
+      "army": 100,
+      "level": 3,
+      "starIndex": 15
+    },
+    {
+      "id": "alien-7",
+      "name": "哥哥文明",
+      "population": 500,
+      "army": 50,
+      "level": 1,
+      "starIndex": 16
+    },
+    {
+      "id": "alien-8",
+      "name": "低温艺术家",
+      "population": 1200,
+      "army": 400,
+      "level": 4,
+      "starIndex": 17
+    },
+    {
+      "id": "alien-9",
+      "name": "波江座文明",
+      "population": 100,
+      "army": 20,
+      "level": 0,
+      "starIndex": 18
+    },
+    {
+      "id": "alien-10",
+      "name": "绿洋星文明",
+      "population": 100,
+      "army": 10,
+      "level": 0,
+      "starIndex": 19
+    }
+  ],
+  "weapons": [
+    {
+      "id": "小型战舰",
+      "tech": "10%光速飞船",
+      "kind": "unit",
+      "hp": 100,
+      "attack": 30,
+      "priority": 1,
+      "cost": 50,
+      "work": 100,
+      "perRound": 50,
+      "level": 0
+    },
+    {
+      "id": "中型战舰",
+      "tech": "50%光速飞船",
+      "kind": "unit",
+      "hp": 200,
+      "attack": 80,
+      "priority": 2,
+      "cost": 120,
+      "work": 100,
+      "perRound": 40,
+      "level": 2
+    },
+    {
+      "id": "巨型战舰",
+      "tech": "99%光速飞船",
+      "kind": "unit",
+      "hp": 500,
+      "attack": 120,
+      "priority": 3,
+      "cost": 260,
+      "work": 100,
+      "perRound": 20,
+      "level": 3
+    },
+    {
+      "id": "宏化部队",
+      "tech": "宏化部队",
+      "kind": "unit",
+      "hp": 1000,
+      "attack": 120,
+      "priority": 3,
+      "cost": 300,
+      "work": 100,
+      "perRound": 10,
+      "level": 4
+    },
+    {
+      "id": "球状闪电",
+      "tech": "球状闪电",
+      "kind": "bomb",
+      "hp": 100,
+      "attack": 150,
+      "priority": 4,
+      "cost": 200,
+      "work": 100,
+      "perRound": 20,
+      "level": 2
+    },
+    {
+      "id": "小行星级氢弹",
+      "tech": "小行星级氢弹",
+      "kind": "bomb",
+      "hp": 100,
+      "attack": 50,
+      "priority": 1,
+      "cost": 50,
+      "work": 100,
+      "perRound": 50,
+      "level": 0
+    },
+    {
+      "id": "行星级氢弹",
+      "tech": "行星级氢弹",
+      "kind": "bomb",
+      "hp": 100,
+      "attack": 100,
+      "priority": 2,
+      "cost": 110,
+      "work": 100,
+      "perRound": 40,
+      "level": 1
+    },
+    {
+      "id": "恒星级氢弹",
+      "tech": "恒星级氢弹",
+      "kind": "bomb",
+      "hp": 100,
+      "attack": 250,
+      "priority": 3,
+      "cost": 350,
+      "work": 100,
+      "perRound": 50,
+      "level": 2
+    },
+    {
+      "id": "智子",
+      "tech": "智子",
+      "kind": "spy",
+      "hp": 0,
+      "attack": 0,
+      "priority": 0,
+      "cost": 100,
+      "work": 100,
+      "perRound": 30,
+      "level": 2
+    },
+    {
+      "id": "奇点炸弹",
+      "tech": "奇点炸弹",
+      "kind": "singularity",
+      "hp": 100,
+      "attack": 0,
+      "priority": 0,
+      "cost": 1000,
+      "work": 100,
+      "perRound": 10,
+      "level": 2
+    }
+  ],
+  "events": [
+    {
+      "name": "1",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "你好，我的朋友。我是联合国最后一任秘书长。因为某些事件的发生，联合国将不复存在，取而代之的将是更为统一的地球联盟。\n\n而你，将是地球联盟的首任执政官。",
+          "portrait": "卡马克"
+        },
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "我刚才说了，某些事件将要发生，不久你就会知道了。在这之前，我得把我的一些经验交待给你。\n\n你知道，地球联盟是个大组织，拥有调遣全人类资源的特权，所以你的操作得谨慎，下面我来教给你。",
+          "portrait": "卡马克"
+        },
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "地球联盟目前有11个部门，你在面板的右侧就会看到它们，对，就是那儿。每个部门分管一项事务，你需要调配这些部门的工作以使它们能够正常运转。不过，有些部门需要文明等级到达一定程序时才能操作。",
+          "portrait": "卡马克"
+        },
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "面板的左上方，你会看到“星图”。由于目前我们的技术受限，所以暂时只能看到太阳系，相信在你的领导下，不久我们将会突破太阳系的屏障，跃迁向银河系。",
+          "portrait": "卡马克"
+        },
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "点击“星图”上的按钮，你就能在面板的左下方看到这颗星球的情况，并能对其进行一些操作。作为秘书长，我建议你能加快我们地球文明在各星球的殖民，这会加速我们文明的发展。",
+          "portrait": "卡马克"
+        },
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "每一年，你都能对我们现有的组织及星球作出一些指令，但这些指令的实现需要时间。当你设置完指令后，请点击面板上方的“年度计划完毕”按钮，让手下们去实现你的计划吧。",
+          "portrait": "卡马克"
+        },
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "如果你不明白某个按钮的用途，请把鼠标移到它上面，会有功能说明显示出来。\n\n未来是不可知的，但可以预见的是，在你领导地球文明的这段时间内，会有战争和谈判，欢笑与泪水。我的使命已经结束，你的使命才刚刚开始。祝你好运，年轻人！",
+          "portrait": "卡马克"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "联合国秘书长 卡马克",
+          "text": "那件事终于来了。\n\n（一艘先遣小型飞船进入了太阳系，到达地球。）",
+          "portrait": "卡马克"
+        },
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "呵呵，白嫩的小虫虫，有趣的小虫虫。我们有一段时间要相处，相信我们会互相喜欢对方的。",
+          "portrait": "大牙"
+        },
+        {
+          "speaker": "player",
+          "text": "尊敬的使者，您知道，我们现在最为关心的，是您那伟大的母舰到太阳系的目的。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "伟大的吞食帝国将吃掉地球，以便继续它壮丽的航程，这是不可改变的！",
+          "portrait": "大牙"
+        },
+        {
+          "speaker": "player",
+          "text": "那么人类的命运呢?",
+          "portrait": "player"
+        },
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "这正是我今天要决定的事。\n\n你们的味道不错，有一种滑爽的清淡，很像我在波江座行星上吃过的一种蓝色的浆果。所以祝贺你们，你们的种族将延续下去，你们将作为一种小家畜在吞食帝国饲养，到六十岁左右上市。",
+          "portrait": "大牙"
+        },
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "这就是我来告诉你们的事情。不过你们也不用紧张，我们的舰队将于 15 年后到达地球，所以你们还有时间可以享受一下余生。",
+          "portrait": "大牙"
+        },
+        {
+          "speaker": "player",
+          "text": "难道你不觉得毁灭一个几百万年的文明在道德上太过残忍了？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "哈哈哈，有趣的小虫虫。\n\n我们以后有很长的时间相处，有很多的事要谈，但不要再从道德的角度谈了，在宇宙中，那东西没意义。",
+          "portrait": "大牙"
+        }
+      ]
+    },
+    {
+      "name": "17",
+      "type": 0,
+      "effect": 5,
+      "value": 9,
+      "talks": [
+        {
+          "speaker": "player",
+          "text": "决战的时刻到了。\n\n（吞食者飞船掠过外围行星，沿着陡峭的轨道向地球扑来。）",
+          "portrait": "player"
+        },
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "太棒了，元帅虫虫，真的太棒了。这十年地球文明有了巨大的进步，不过，在成为吞食帝国的家畜后你会明白你们的努力毫无意义。",
+          "portrait": "大牙"
+        },
+        {
+          "speaker": "player",
+          "text": "没有人愿意被你们这些丑陋的怪物圈养。\n\n看，这是我们行星的旗帜，地球对吞食帝国宣战了！",
+          "portrait": "player"
+        }
+      ]
+    },
+    {
+      "name": "25",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "三体监听员",
+          "text": "不要回答！\n\n不要回答！！\n\n不要回答！！！",
+          "portrait": "三体监听员"
+        },
+        {
+          "speaker": "三体监听员",
+          "text": "这个世界收到了你们的信息。我是这个世界的一个和平主义者，我首先收到信息是你们文明的幸运，警告你们：不要回答！不要回答！不要回答！！！  你们的方向上有千万颗恒星，只要不回答，这个世界就无法定位发出源。如果回答，发射器将被定位，你们的文明将遭到入侵，你们的世界将被占领！\n\n不要回答！不要回答！！不要回答！！！",
+          "portrait": "三体监听员"
+        },
+        {
+          "speaker": "天体物理研究员　叶文洁",
+          "text": "到这里来吧，我将帮助你们获得这个世界。\n\n我的文明已无力解决自己的问题，需要你们的力量来介入。",
+          "portrait": "叶文洁"
+        }
+      ]
+    },
+    {
+      "name": "50",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "上帝",
+          "text": "我们是上帝，看在创造了这个世界的份上，给点儿吃的吧——\n\n（大量的外星飞船停泊在地球同步轨道上，同时，地球上新增一亿老流浪汉。）",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "你们从哪里来？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "上帝",
+          "text": "一个文明，只有在它是个幼儿时才有固定的位置，行星会变化，恒星也会变化，文明不久就得迁移，到青年时代它已迁移过多次，这时人们肯定会发现，任何行星的环境都不如密封的飞船稳定，于是他们就以飞船为家，行星反而成为临时住所。所以，任何长大成人的文明都是星舰文明，在太空进行着永恒的流浪，飞船就是它的家，从哪里来？我们从飞船上来。",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "你们到底是谁？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "上帝",
+          "text": "说过多少次了，我们是上帝。\n\n我们的文明，呵，就叫它上帝文明吧，在地球诞生前就已存在了很久，在上帝文明步入它衰落的暮年时，我们就在刚形成不久的地球上培育了最初的生命，然后，上帝文明在接近光速的航行中跨越时间，在地球生命世界进化到适当的程度时，按照我们远祖的基因引入了一个物种，并消灭了它的天敌，细心地引导它进化，最后在地球上形成了与我们一模一样的文明种族。",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "那么，您现在是否可以告诉我们上帝文明来到地球的目的？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "上帝",
+          "text": "我们无家可归了。\n\n希望你们尽到对自己的创造者的责任，收留我们。",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "赡养上帝应该是人类的责任，虽然这还需要世界各国进一步的磋商，但我想，原则上......",
+          "portrait": "player"
+        },
+        {
+          "speaker": "上帝",
+          "text": "给你们添麻烦了，给你们添麻烦了......\n\n（上帝一时老泪纵横，连连鞠躬。）",
+          "portrait": "上帝"
+        }
+      ]
+    },
+    {
+      "name": "55",
+      "type": 0,
+      "effect": 2,
+      "value": 20,
+      "talks": [
+        {
+          "speaker": "上帝",
+          "text": "我们要走了。要回到飞船上去了。",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "上帝爷子啊，你们那些船可都是破船了，住不了多久了，你们坐着它们能去哪儿呢？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "上帝",
+          "text": "飞到哪儿算哪儿吧，太空无边无际，哪儿还不埋人呢？",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "你们留下来吧，我们会好好待你的。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "上帝",
+          "text": "我们走，并不是因为你们待我们怎么样，能收留我们，已经很满足了。但有一件事让我们没法待下去，那就是：上帝在你们的眼中已经变成了一群老可怜虫，你们可怜我们了，你们竟然可怜我们了。",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "上帝",
+          "text": "上帝文明怎么会让人可怜呢？你们根本不知道这是一个怎样伟大的文明，不知道她在宇宙中创造了多少壮丽的史诗、多少雄伟的奇迹！\n\n现在文明是老了，但不是我们的错，无论怎样努力避免，一个文明总是要老的，谁都有老的时候，你们也一样。我们真的不需要你们可怜。",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "与你们相比，人类真算不得什么。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "上帝",
+          "text": "在我们走之前，我要告诉你们一个秘密，—个对你们来说是天大的秘密——你们，有兄弟。\n\n我们还创造了其它的地球，目前除了你们，这样的文明还存在着三个，距你们都不远，都在二百光年的范围内，你们是地球四号，是年龄最小的一个。",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "上帝",
+          "text": "这是一场生死赛跑，看你们中谁最先能够贴近光速航行，这是突破时空禁锢的惟一方式，谁能够首先达到这个技术水平，谁才能生存下来，其他稍慢一步的都必死无疑，这就是宇宙中的生存竞争。孩子们，时间不多了，要抓紧！",
+          "portrait": "上帝"
+        },
+        {
+          "speaker": "player",
+          "text": "放心吧，我们会牢记您的教诲。\n\n（上帝文明离去，留下大量技术资料，地球文明上升20点。）",
+          "portrait": "player"
+        }
+      ]
+    },
+    {
+      "name": "70",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "哥哥文明社会调查员",
+          "text": "我是第一地球的社会调查员。第一地球的故事，是二十亿个穷人和一个富人的故事。我不希望这样的事在你们第四地球重演。",
+          "portrait": "哥哥文明"
+        },
+        {
+          "speaker": "滑膛",
+          "text": "我只是一个杀手，只加工合同中规定的工件。你说的事与我与关，但我感兴趣的是：\n\n如果没有你们的干涉，我们的世界也会重复这个故事吗？",
+          "portrait": "滑膛"
+        },
+        {
+          "speaker": "哥哥文明社会调查员",
+          "text": "不知道，也许会也许不会，文明的进程像一个人的命运，变幻莫测的……好，我该走了，我只是一名普通的社会调查员，也在为生计奔忙。\n\n保重，弟弟。",
+          "portrait": "哥哥文明"
+        },
+        {
+          "speaker": "滑膛",
+          "text": "保重，哥哥。",
+          "portrait": "滑膛"
+        }
+      ]
+    },
+    {
+      "name": "83",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "碳基联邦最高执政官",
+          "text": "目标编号：500921473，第３号行星——我很惊讶，在如此荒凉的第一旋臂竟然有碳基文明。",
+          "portrait": "碳基联邦"
+        },
+        {
+          "speaker": "player",
+          "text": "同为碳基文明，你们来地球的目的是？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "碳基联邦最高执政官",
+          "text": "别担心，我们没有恶意。也许你们可以考虑加入我们碳基联邦，不过恕我直言，你们的文明级别还不够格呢。\n\n我们这次来，是要点拨一下你们那刚开窍的脑袋，帮助你们进步。你们有什么问题，尽管问吧，我会给你们一个满意的答案。",
+          "portrait": "碳基联邦"
+        },
+        {
+          "speaker": "霍金",
+          "text": "请告诉我们宇宙的目的。",
+          "portrait": "霍金"
+        },
+        {
+          "speaker": "碳基联邦最高执政官",
+          "text": "嗯，看来我小看你们了。这个问题问得很好，老实说我们也不知道，但在宇宙中，只有一个文明有可能知道。",
+          "portrait": "碳基联邦"
+        },
+        {
+          "speaker": "碳基联邦最高执政官",
+          "text": "在我们的宇宙中，有一类文明拥有神一般的技术，他们共有四个个体，分别是李白——喜欢使用终级技术作诗的狂想家；低温艺术家——也是个艺术家，喜欢在宇宙尺度上制作冰雕；排险者——一个生怕宇宙毁于真空衰变的宇宙警察。我所说的那个惟一可能知道宇宙目的的文明，就是那神之文明的第四个个体——我们称他为终级思想家。",
+          "portrait": "碳基联邦"
+        },
+        {
+          "speaker": "碳基联邦最高执政官",
+          "text": "他是一个拥有不可思议技术的文明体，位于银河系的中心。为了思考宇宙的那个终极秘密，他利用恒星作为运算单元，花几亿年时间不停地运算，并不断利用超强大引力吞食周边恒星来补充物质。\n\n“宇宙的目的”，这个问题的答案全宇宙只有他老人家知道。能不能找到他，就看你们的技术实力与运气了。",
+          "portrait": "碳基联邦"
+        },
+        {
+          "speaker": "player",
+          "text": "我想，地球文明之所以被称为“文明”，是因为从第一个抬头抑望星空的猿人开始，我们的基因里已经被植入了“探索”的DNA。宇宙的终级秘密将是我们的理想。",
+          "portrait": "player"
+        }
+      ]
+    },
+    {
+      "name": "97",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "罗辑",
+          "text": "我有一个计划，向187J3X1恒星发一条信息。这将证明我的新理论。",
+          "portrait": "罗辑"
+        },
+        {
+          "speaker": "player",
+          "text": "您要发什么信息？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "罗辑",
+          "text": "一句咒语。",
+          "portrait": "罗辑"
+        }
+      ]
+    },
+    {
+      "name": "107",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "希恩斯",
+          "text": "天哪。罗辑，你10年前发出的咒语生效了。\n\n我们的科学家刚刚发现，187J3X1恒星被一个不明光粒摧毁了。",
+          "portrait": "希恩斯"
+        },
+        {
+          "speaker": "罗辑",
+          "text": "宇宙就是一座黑暗森林，每个文明都是带枪的猎人。猎人终于开枪了。\n\n我想你们应该明白我们的使命了吧：在这片森林中，他人就是地狱，就是永恒的威胁。消灭他们！",
+          "portrait": "罗辑"
+        }
+      ]
+    },
+    {
+      "name": "20",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "看来我还得和你们呆上一段时间，因为，神来了。\n\n伊依，你将和我去见他。",
+          "portrait": "大牙"
+        },
+        {
+          "speaker": "吟游诗人 伊依",
+          "text": "是真的神吗？",
+          "portrait": "伊依"
+        },
+        {
+          "speaker": "吞食帝国使者 大牙",
+          "text": "它们掌握了不可思议的技术，已经纯能化，并且能在瞬间从银河系的一端跃迁到另一端，这不就是神了。\n\n如果你们能得到那些超级技术的百分之一，那地球文明的前景就很光明了。",
+          "portrait": "大牙"
+        },
+        {
+          "speaker": "李白",
+          "text": "我讨厌你们这种地球虫子，除了你们的诗。",
+          "portrait": "李白文明"
+        },
+        {
+          "speaker": "吟游诗人 伊依",
+          "text": "你喜欢诗？",
+          "portrait": "伊依"
+        },
+        {
+          "speaker": "李白",
+          "text": "我的诗是从原子级别运算出来的。我正在计划一次宇宙终极吟诗，届时将会征用整个太阳系的原子，你会看到的。\n\n还有，我不喜欢被称作神，你们可以叫我“李白”。",
+          "portrait": "李白文明"
+        }
+      ]
+    },
+    {
+      "name": "63",
+      "type": 0,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "刘慈欣",
+          "text": "这游戏是谁做的？",
+          "portrait": "刘慈欣"
+        },
+        {
+          "speaker": "player",
+          "text": "据说是傲雪小组的Tormoo。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "刘慈欣",
+          "text": "嗯......我想我是不是该考虑送他一本签名版的《三体3》了？",
+          "portrait": "刘慈欣"
+        }
+      ]
+    },
+    {
+      "name": "end",
+      "type": 1,
+      "effect": 0,
+      "value": 0,
+      "talks": [
+        {
+          "speaker": "player",
+          "text": "所有的文明都已经被我们征服，我们是宇宙的霸主！",
+          "portrait": "player"
+        },
+        {
+          "speaker": "终极思想家",
+          "text": "很少有文明能够做到称霸宇宙，我想见见你们。",
+          "portrait": "终极思想家"
+        },
+        {
+          "speaker": "player",
+          "text": "你终于出现了，那个号称宇宙最强大的思想家。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "终极思想家",
+          "text": "没错，我想你们应该听说过关于我的传说。我在银河系中心花了数十亿年和数百亿颗恒星，就是为了计算出宇宙的终极秘密：宇宙的目的。",
+          "portrait": "终极思想家"
+        },
+        {
+          "speaker": "player",
+          "text": "你的技术证明了你几乎是宇宙中最强大的文明。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "终极思想家",
+          "text": "我承认这点，但是，我遇到了困难。",
+          "portrait": "终极思想家"
+        },
+        {
+          "speaker": "player",
+          "text": "什么？",
+          "portrait": "player"
+        },
+        {
+          "speaker": "终极思想家",
+          "text": "我受困于递归。是的，这是我思考中所碰到的最大障碍，我越来越发现宇宙实际是一个递归计算的产物，但我无法找到递归的尽头。",
+          "portrait": "终极思想家"
+        },
+        {
+          "speaker": "player",
+          "text": "我想挑战你。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "终极思想家",
+          "text": "什么，我有没有听错？你们只是虫子，你们的技术对我来说不过是九牛一毛。我承认你们征服了宇宙其它文明，这件事的确令我颇感兴趣，但是，你们竟然因此认为自己有能力挑战宇宙最强大的终极思想家，这件事想起来都能让我发笑。",
+          "portrait": "终极思想家"
+        },
+        {
+          "speaker": "player",
+          "text": "没错，在你面前卖弄技术的确是班门弄斧，但是，我相信文明的力量。文明，即使堕入黑暗也会用一根小小的火柴找到迈向光明的路，只要有一块不太贫瘠的土壤，就能像一株迸发的嫩芽，冲破坚石的封锁，用百万年的光阴长成一棵参天大树。\n\n解开宇宙的终极秘密，是我们的理想。",
+          "portrait": "player"
+        },
+        {
+          "speaker": "终极思想家",
+          "text": "我，接受你们的挑战。\n\n（游戏结束，请看下集 ：））",
+          "portrait": "终极思想家"
+        }
+      ]
+    }
+  ],
+  "randomEvents": [
+    {
+      "name": "random-0",
+      "type": 2,
+      "effect": 1,
+      "value": 10,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "前任联合国秘书长卡马克发起“全球农业学大寨”运动，受此影响全球农业大丰收，增加10点经济。",
+          "portrait": "报纸"
+        }
+      ]
+    },
+    {
+      "name": "random-1",
+      "type": 2,
+      "effect": 1,
+      "value": -10,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "非洲经济强国索马里爆发次贷危机，并波及全球，经济下降10点。",
+          "portrait": "报纸"
+        }
+      ]
+    },
+    {
+      "name": "random-2",
+      "type": 2,
+      "effect": 2,
+      "value": 10,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "中国科幻作家刘慈欣出版了《三体》系列的最新续作，轰动全球。文化增加7点。",
+          "portrait": "报纸"
+        }
+      ]
+    },
+    {
+      "name": "random-3",
+      "type": 2,
+      "effect": 2,
+      "value": -10,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "美国广电总局宣布电视连续剧《越狱》因涉黑而被禁播，全球文化产业发展受阻。文化下降7点。",
+          "portrait": "报纸"
+        }
+      ]
+    },
+    {
+      "name": "random-4",
+      "type": 2,
+      "effect": 3,
+      "value": 10,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "可口可乐公司宣布为今年2月27日出生的宝宝提供终身免费可乐。消息一出带动全球生育潮。全球人口增加10点。",
+          "portrait": "报纸"
+        }
+      ]
+    },
+    {
+      "name": "random-5",
+      "type": 2,
+      "effect": 4,
+      "value": 5,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "地球三体组织宣布将投身开源事业，目前已将其掌握的数十份来自三体世界的加密资料公开，并鼓励全球黑客参与解密。全球逃亡主义因此上升5点。",
+          "portrait": "报纸"
+        }
+      ]
+    },
+    {
+      "name": "random-6",
+      "type": 2,
+      "effect": 4,
+      "value": -5,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "中国娱乐界人物宋祖德鼓吹投降外星人，目前已被中国警方逮捕。消息一出民心大快，全球逃亡主义下降5点。",
+          "portrait": "报纸"
+        }
+      ]
+    },
+    {
+      "name": "random-7",
+      "type": 2,
+      "effect": 1,
+      "value": 10,
+      "talks": [
+        {
+          "speaker": "地球晨报",
+          "text": "65亿地球人自己的吹牛网站－－牛魔网（http://www.ourshow2003.com/nmw）再次成为拉动全球经济的火车头，在其带领下高科技行业提升全球经济10个点。",
+          "portrait": "报纸"
+        }
+      ]
+    }
+  ],
+  "portraits": {
+    "player": "assets/legacy/portrait-00.png",
+    "title": "assets/legacy/portrait-01.png",
+    "unregman": "assets/legacy/portrait-02.png",
+    "丁仪": "assets/legacy/portrait-03.png",
+    "三体文明": "assets/legacy/portrait-04.png",
+    "三体监听员": "assets/legacy/portrait-05.png",
+    "上帝": "assets/legacy/portrait-06.png",
+    "上帝文明": "assets/legacy/portrait-07.png",
+    "东方延绪": "assets/legacy/portrait-08.png",
+    "严井": "assets/legacy/portrait-09.png",
+    "伊依": "assets/legacy/portrait-10.png",
+    "伊文斯": "assets/legacy/portrait-11.png",
+    "低温艺术家": "assets/legacy/portrait-12.png",
+    "刘慈欣": "assets/legacy/portrait-13.png",
+    "华华": "assets/legacy/portrait-14.png",
+    "卡马克": "assets/legacy/portrait-15.png",
+    "叶文洁": "assets/legacy/portrait-16.png",
+    "吞食帝国": "assets/legacy/portrait-17.png",
+    "哥哥文明": "assets/legacy/portrait-18.png",
+    "地球": "assets/legacy/portrait-19.png",
+    "大史": "assets/legacy/portrait-20.png",
+    "大牙": "assets/legacy/portrait-21.png",
+    "希恩斯": "assets/legacy/portrait-22.png",
+    "常伟思": "assets/legacy/portrait-23.png",
+    "庄颜": "assets/legacy/portrait-24.png",
+    "恒星": "assets/legacy/portrait-25.png",
+    "报纸": "assets/legacy/portrait-26.png",
+    "排险者": "assets/legacy/portrait-27.png",
+    "朱汉扬": "assets/legacy/portrait-28.png",
+    "李白文明": "assets/legacy/portrait-29.png",
+    "杨冬": "assets/legacy/portrait-30.png",
+    "杨卫宁": "assets/legacy/portrait-31.png",
+    "林云": "assets/legacy/portrait-32.png",
+    "水娃": "assets/legacy/portrait-33.png",
+    "汪淼": "assets/legacy/portrait-34.png",
+    "沈渊": "assets/legacy/portrait-35.png",
+    "波江座文明": "assets/legacy/portrait-36.png",
+    "泰勒": "assets/legacy/portrait-37.png",
+    "滑膛": "assets/legacy/portrait-38.png",
+    "白冰": "assets/legacy/portrait-39.png",
+    "碎星者": "assets/legacy/portrait-40.png",
+    "碳基联邦": "assets/legacy/portrait-41.png",
+    "章北海": "assets/legacy/portrait-42.png",
+    "终极思想家": "assets/legacy/portrait-43.png",
+    "绿洋星文明": "assets/legacy/portrait-44.png",
+    "罗辑": "assets/legacy/portrait-45.png",
+    "苗福全": "assets/legacy/portrait-46.png",
+    "行星": "assets/legacy/portrait-47.png",
+    "雷志成": "assets/legacy/portrait-48.png",
+    "雷迪亚兹": "assets/legacy/portrait-49.png",
+    "霍金": "assets/legacy/portrait-50.png"
+  },
+  "tracks": [
+    "assets/legacy/music-0.mp3",
+    "assets/legacy/music-1.mp3",
+    "assets/legacy/music-2.mp3",
+    "assets/legacy/music-3.mp3",
+    "assets/legacy/music-4.mp3"
+  ]
+}

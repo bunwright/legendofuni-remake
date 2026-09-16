@@ -11,17 +11,21 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "check": "tsc --noEmit",
-    "extract": "python3 scripts/extract-legacy.py"
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "extract": "python3 scripts/extract-legacy.py",
+    "import:runtime": "python3 scripts/import-runtime.py"
   },
   "dependencies": {
     "three": "^0.180.0",
-    "lucide": "^0.468.0"
+    "zod": "^4.6.4"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",
     "@types/three": "^0.180.0",
+    "prettier": "^3.9.6",
     "typescript": "^5.9.2",
     "vite": "^7.1.5",
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.11"
   }
 }

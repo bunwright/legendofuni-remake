@@ -1,0 +1,1924 @@
+@media (min-width: 1600px) {
+  .menu-copy {
+    top: 20%;
+    left: 13%;
+  }
+  .planet-panel {
+    right: 40px;
+    width: 330px;
+  }
+  .map-heading {
+    left: 55px;
+  }
+  .mission-strip {
+    left: 55px;
+  }
+  .workspace:not(.map-workspace) {
+    padding-left: 6vw;
+    padding-right: 7vw;
+  }
+  .panel-heading h1 {
+    font-size: 39px;
+  }
+  .science-layout {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 55px;
+  }
+  .tech-node {
+    padding-top: 26px;
+    padding-bottom: 23px;
+  }
+  .tech-content p {
+    font-size: 12px;
+  }
+  .resources {
+    gap: 35px;
+  }
+  .resource strong {
+    font-size: 25px;
+  }
+}
+@media (max-height: 820px) and (min-width: 901px) {
+  .menu-copy {
+    top: 14%;
+  }
+  .menu-copy h1 {
+    font-size: 90px;
+    margin-top: 17px;
+  }
+  .menu-quote {
+    margin: 18px 0;
+    font-size: 16px;
+  }
+  .menu-primary {
+    padding: 13px 0;
+    min-height: 45px;
+  }
+  .menu-secondary {
+    padding: 7px 0;
+    min-height: 31px;
+  }
+  .command-nav {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .command-nav > button {
+    min-height: 47px;
+    gap: 4px;
+  }
+  .nav-utility {
+    min-height: 34px;
+    gap: 2px;
+  }
+  .nav-utility svg {
+    width: 14px;
+    height: 14px;
+  }
+  .command-nav > button > svg {
+    width: 19px;
+    height: 19px;
+  }
+  .story-overlay {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .story-transmission h1 {
+    font-size: 31px;
+  }
+  .dialogue {
+    min-height: 160px;
+    padding: 22px 0;
+  }
+  .dialogue-text {
+    font-size: 17px;
+  }
+  .story-transmission header {
+    padding-bottom: 20px;
+  }
+  .story-controls {
+    padding-top: 18px;
+  }
+  .negotiation-orbit {
+    width: 55px;
+    height: 55px;
+    margin: 22px auto;
+  }
+  .negotiation-orbit svg {
+    width: 30px;
+    height: 30px;
+  }
+  .negotiation-overlay {
+    padding-top: 25px;
+  }
+  .negotiation-overlay > header h1 {
+    font-size: 28px;
+  }
+  .question {
+    margin: 18px 0;
+  }
+  .question blockquote {
+    font-size: 19px;
+    min-height: 60px;
+  }
+  .theory-answers button {
+    min-height: 105px;
+    padding: 12px;
+  }
+  .battle-heading {
+    top: 24px;
+  }
+  .battle-force {
+    top: 24px;
+    bottom: 160px;
+  }
+  .battle-log {
+    bottom: 143px;
+  }
+  .battle-controls {
+    min-height: 120px;
+  }
+}
+@media (max-width: 1200px) {
+  .topbar {
+    gap: 15px;
+    padding: 0 15px;
+  }
+  .brand-mark {
+    gap: 8px;
+  }
+  .brand-mark > span {
+    font-size: 20px;
+  }
+  .brand-mark > svg {
+    width: 29px;
+  }
+  .resources {
+    gap: 9px;
+  }
+  .resource {
+    gap: 6px;
+  }
+  .resource > svg {
+    display: none;
+  }
+  .resource strong {
+    font-size: 19px;
+  }
+  .resource > div {
+    column-gap: 7px;
+  }
+  .epoch {
+    padding-left: 15px;
+    gap: 8px;
+  }
+  .epoch strong {
+    font-size: 29px;
+  }
+  .bottombar {
+    gap: 19px;
+    padding-left: 103px;
+    padding-right: 24px;
+  }
+  .sector-tabs {
+    gap: 8px;
+  }
+  .sector-tabs button {
+    font-size: 11px;
+    padding: 0 6px;
+    gap: 5px;
+  }
+  .civilization-level {
+    width: 110px;
+  }
+  .next-year {
+    min-width: 148px;
+    padding: 0 16px;
+  }
+  .planet-panel {
+    width: 270px;
+    right: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .map-heading {
+    left: 28px;
+    top: 32px;
+  }
+  .map-heading h1 {
+    font-size: 30px;
+  }
+  .mission-strip {
+    left: 28px;
+    width: 245px;
+  }
+  .mission-strip p {
+    font-size: 10px;
+  }
+  .map-instructions {
+    left: 28px;
+    font-size: 8px;
+  }
+  .workspace {
+    padding: 35px 30px 50px;
+  }
+  .science-layout {
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 25px;
+  }
+  .branch-nav {
+    padding-right: 12px;
+  }
+  .research-summary {
+    align-items: flex-start;
+  }
+  .research-summary h2 {
+    font-size: 19px;
+  }
+  .research-summary > .command {
+    max-width: 120px;
+    font-size: 9px;
+    gap: 5px;
+    padding: 8px;
+  }
+  .research-summary > .command svg {
+    width: 15px;
+  }
+  .development-layout {
+    gap: 25px;
+    grid-template-columns: minmax(0, 1fr) 225px;
+  }
+  .labor-row {
+    gap: 10px;
+  }
+  .labor-row input[type='number'] {
+    width: 64px;
+  }
+  .person {
+    grid-template-columns: 64px minmax(0, 1fr) 165px;
+    gap: 18px;
+  }
+  .person > img {
+    width: 64px;
+    height: 64px;
+  }
+  .person-stats {
+    gap: 18px;
+  }
+  .fleet-layout {
+    grid-template-columns: minmax(0, 1fr) 250px;
+    gap: 25px;
+  }
+  .weapon-blueprint {
+    gap: 12px;
+  }
+  .fleet-orders {
+    padding-left: 20px;
+  }
+  .annual-report {
+    right: 305px;
+    width: 320px;
+  }
+  .battle-force {
+    width: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .battle-force.mine {
+    left: 18px;
+  }
+  .battle-force.enemy {
+    right: 18px;
+  }
+  .battle-heading,
+  .battle-log {
+    left: 260px;
+    right: 260px;
+  }
+  .battle-heading h1 {
+    font-size: 28px;
+  }
+  .battle-controls {
+    gap: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .story-overlay {
+    gap: 4vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+  .story-stardate {
+    width: 110px;
+  }
+  .dialogue {
+    gap: 20px;
+    grid-template-columns: 90px minmax(0, 1fr);
+  }
+  .historical-note {
+    padding-left: 110px;
+  }
+  .fallback-labels {
+    padding-right: 310px;
+    padding-left: 125px;
+  }
+}
+@media (max-width: 900px) {
+  .topbar {
+    height: 72px;
+  }
+  .brand-mark > span {
+    font-size: 18px;
+  }
+  .brand-mark > span small {
+    font-size: 6px;
+  }
+  .brand-mark > svg {
+    display: none;
+  }
+  .resources {
+    gap: 12px;
+  }
+  .resource > div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .resource strong {
+    font-size: 18px;
+  }
+  .resource div > small {
+    display: none;
+  }
+  .resource span {
+    font-size: 9px;
+  }
+  .epoch > span {
+    font-size: 9px;
+  }
+  .epoch strong {
+    font-size: 25px;
+  }
+  .epoch strong > small {
+    font-size: 9px;
+    margin-left: 3px;
+  }
+  .command-nav {
+    top: 72px;
+    bottom: 70px;
+    width: 68px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .command-nav > button {
+    min-height: 53px;
+  }
+  .command-nav kbd {
+    display: none;
+  }
+  .nav-utility {
+    min-height: 42px;
+  }
+  .workspace {
+    inset: 72px 0 70px 68px;
+    padding: 30px 25px 40px;
+  }
+  .bottombar {
+    height: 70px;
+    padding-left: 83px;
+    gap: 15px;
+  }
+  .civilization-level {
+    display: none;
+  }
+  .sector-tabs {
+    gap: 6px;
+  }
+  .sector-tabs button {
+    font-size: 11px;
+    padding: 0 5px;
+  }
+  .next-year {
+    min-width: 140px;
+  }
+  .planet-panel {
+    width: 245px;
+    right: 12px;
+    top: 24px;
+    bottom: 18px;
+    padding: 18px;
+  }
+  .planet-title h2 {
+    font-size: 30px;
+  }
+  .planet-panel > .eyebrow {
+    font-size: 7px;
+  }
+  .map-heading {
+    left: 24px;
+    top: 25px;
+  }
+  .map-heading > .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .map-heading h1 {
+    font-size: 27px;
+  }
+  .map-heading p {
+    font-size: 10px;
+  }
+  .map-tools {
+    gap: 13px;
+  }
+  .map-tools button {
+    font-size: 10px;
+  }
+  .mission-strip {
+    left: 24px;
+    width: 220px;
+  }
+  .mission-strip h2 {
+    font-size: 15px;
+  }
+  .map-instructions {
+    left: 24px;
+    max-width: 230px;
+    line-height: 1.7;
+  }
+  .panel-heading h1 {
+    font-size: 28px;
+  }
+  .panel-heading p {
+    font-size: 11px;
+  }
+  .science-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .branch-nav {
+    display: flex;
+    overflow: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 0 0 12px;
+    gap: 4px;
+  }
+  .branch-nav button {
+    min-width: 118px;
+    min-height: 58px;
+    gap: 8px;
+    padding: 8px;
+  }
+  .branch-nav button > svg {
+    width: 17px;
+  }
+  .branch-nav button span {
+    font-size: 11px;
+  }
+  .branch-nav button small {
+    font-size: 8px;
+  }
+  .branch-nav button.active {
+    box-shadow: inset 0 -2px var(--ice);
+  }
+  .population-overview {
+    gap: 35px;
+  }
+  .development-layout {
+    grid-template-columns: 1fr;
+  }
+  .development-aside {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    padding: 24px 0;
+  }
+  .development-aside .command {
+    width: auto;
+    display: inline-flex;
+    margin-right: 10px;
+  }
+  .person {
+    grid-template-columns: 60px minmax(0, 1fr);
+    gap: 16px;
+  }
+  .person > img {
+    width: 60px;
+    height: 60px;
+  }
+  .appointment {
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .appointment label {
+    display: none !important;
+  }
+  .appointment select {
+    margin: 0;
+    max-width: 220px;
+  }
+  .appointment .small-button {
+    width: auto;
+    white-space: nowrap;
+  }
+  .person-stats {
+    gap: 22px;
+  }
+  .fleet-layout {
+    grid-template-columns: 1fr;
+  }
+  .fleet-orders {
+    border: 0;
+    padding: 0;
+  }
+  .diplomacy-layout {
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 25px;
+  }
+  .alien-list {
+    padding-right: 10px;
+  }
+  .alien-list button {
+    padding-left: 8px;
+    gap: 9px;
+  }
+  .alien-list button span {
+    font-size: 11px;
+  }
+  .alien-list button > svg {
+    width: 18px;
+  }
+  .alien-detail {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .alien-detail > h2 {
+    font-size: 32px;
+  }
+  .alien-lore {
+    font-size: 15px;
+  }
+  .relation-track span {
+    font-size: 8px;
+  }
+  .annual-report {
+    right: 277px;
+    width: 300px;
+    bottom: 92px;
+  }
+  .star-directory {
+    left: 24px;
+    top: 174px;
+    width: 235px;
+  }
+  .story-stardate {
+    display: none;
+  }
+  .story-transmission {
+    max-width: 700px;
+  }
+  .story-overlay {
+    padding: 6vw;
+  }
+  .story-transmission h1 {
+    font-size: 33px;
+  }
+  .dialogue-text {
+    font-size: 18px;
+  }
+  .battle-heading {
+    left: 240px;
+    right: 240px;
+  }
+  .battle-heading h1 {
+    font-size: 24px;
+  }
+  .battle-heading p {
+    display: none;
+  }
+  .battle-force {
+    width: 205px;
+  }
+  .battle-log {
+    left: 240px;
+    right: 240px;
+  }
+  .battle-log p {
+    font-size: 9px;
+  }
+  .battle-controls {
+    justify-content: center;
+    gap: 8px;
+  }
+  .battle-controls .command,
+  .battle-controls .danger-button {
+    padding: 9px 11px;
+    font-size: 10px;
+  }
+  .battle-controls .primary {
+    padding: 11px 16px;
+  }
+  .menu-copy {
+    left: 9%;
+    top: 18%;
+    width: 350px;
+  }
+  .menu-copy h1 {
+    font-size: 88px;
+  }
+  .menu-coordinate {
+    right: 6%;
+    bottom: 23%;
+  }
+  .menu-footer {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .fallback-labels {
+    padding-left: 95px;
+    padding-right: 280px;
+  }
+}
+@media (max-width: 650px) {
+  .main-menu {
+    padding: 24px 25px;
+    background:
+      linear-gradient(90deg, #030711e0, #03071166 80%),
+      linear-gradient(0deg, #030711d9, transparent 60%);
+  }
+  .menu-top {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .menu-top > span:last-child {
+    display: none;
+  }
+  .menu-top svg {
+    width: 22px;
+    height: 22px;
+  }
+  .menu-copy {
+    left: 32px;
+    top: 16%;
+    width: calc(100% - 64px);
+  }
+  .menu-copy > .eyebrow {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+  .menu-copy h1 {
+    font-size: clamp(67px, 17vw, 88px);
+    letter-spacing: 10px;
+    margin: 22px 0 15px;
+    line-height: 1.08;
+  }
+  .title-seal {
+    font-size: 10px;
+    letter-spacing: 4px;
+    padding: 8px 6px 4px;
+  }
+  .title-english {
+    font-size: 9px;
+    letter-spacing: 5px;
+  }
+  .menu-quote {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 22px 0;
+  }
+  .menu-quote span {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+  .menu-actions {
+    width: 200px;
+    gap: 3px;
+  }
+  .menu-primary {
+    font-size: 13px;
+    min-height: 49px;
+    padding: 14px 0;
+  }
+  .menu-secondary {
+    font-size: 11px;
+    min-height: 36px;
+    padding: 8px 0;
+  }
+  .menu-coordinate {
+    right: 22px;
+    bottom: 19%;
+    font-size: 8px;
+    letter-spacing: 1px;
+    writing-mode: vertical-rl;
+  }
+  .menu-coordinate > .live-dot {
+    margin: 0 0 8px;
+  }
+  .menu-coordinate > small {
+    font-size: 8px;
+    margin: 12px 0;
+    padding: 0;
+    letter-spacing: 2px;
+  }
+  .menu-coordinate > div {
+    display: none;
+  }
+  .menu-footer {
+    left: 25px;
+    right: 25px;
+    bottom: 24px;
+    line-height: 1.8;
+    gap: 15px;
+    font-size: 7px;
+  }
+  .menu-footer > span:first-child {
+    max-width: 160px;
+  }
+  .menu-footer b {
+    display: block;
+    margin: 3px 0 0;
+  }
+  .topbar {
+    height: 64px;
+    padding: 0 12px;
+    gap: 12px;
+  }
+  .brand-mark {
+    display: none;
+  }
+  .resources {
+    gap: 7px;
+    justify-content: space-between;
+  }
+  .resource > div {
+    gap: 4px;
+  }
+  .resource strong {
+    font-size: 16px;
+  }
+  .resource span {
+    font-size: 8px;
+  }
+  .epoch {
+    padding-left: 10px;
+    gap: 5px;
+  }
+  .epoch > span {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .epoch strong {
+    font-size: 22px;
+  }
+  .epoch strong > small {
+    display: none;
+  }
+  .command-nav {
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 58px;
+    width: 100%;
+    height: 54px;
+    flex-direction: row;
+    padding: 0 4px;
+    background: #081422f5;
+    border-top: 1px solid var(--line);
+    border-right: 0;
+    align-items: stretch;
+    overflow-x: auto;
+  }
+  .command-nav > button {
+    flex: 1;
+    flex-shrink: 0;
+    min-width: 41px;
+    min-height: 52px;
+    font-size: 8px;
+    letter-spacing: 0;
+    gap: 4px;
+    border-left: 0;
+    border-top: 2px solid transparent;
+    padding: 4px 2px;
+  }
+  .command-nav > button svg {
+    width: 17px;
+    height: 17px;
+  }
+  .command-nav > button.active {
+    border-left: 0;
+    border-top-color: var(--ice);
+    background: linear-gradient(#9ddcf513, transparent);
+  }
+  .nav-bottom {
+    margin: 0 0 0 3px;
+    flex-direction: row;
+    padding: 0 0 0 2px;
+    border-top: 0;
+    border-left: 1px solid var(--line);
+    gap: 0;
+  }
+  .nav-utility {
+    min-width: 34px;
+    min-height: 52px;
+    padding: 3px;
+    font-size: 7px;
+    border: 0;
+    letter-spacing: 0;
+    gap: 5px;
+  }
+  .nav-utility svg {
+    width: 16px;
+    height: 16px;
+  }
+  .nav-utility:first-child {
+    display: none;
+  }
+  .workspace {
+    inset: 64px 0 112px;
+    padding: 26px 20px 35px;
+    backdrop-filter: blur(10px);
+  }
+  .panel-heading {
+    margin-bottom: 25px;
+  }
+  .panel-heading > .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.6px;
+  }
+  .panel-heading h1 {
+    font-size: 25px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin: 10px 0;
+  }
+  .panel-heading p {
+    font-size: 10px;
+    line-height: 1.9;
+  }
+  .bottombar {
+    height: 58px;
+    padding: 0 10px;
+    gap: 7px;
+  }
+  .sector-tabs {
+    gap: 1px;
+  }
+  .sector-tabs button {
+    padding: 0 5px;
+    font-size: 9px;
+    gap: 2px;
+    flex: 1;
+  }
+  .sector-tabs small {
+    display: none;
+  }
+  .sector-tabs svg {
+    width: 9px;
+    height: 9px;
+  }
+  .next-year {
+    min-width: 102px;
+    height: 36px;
+    padding: 0 9px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    gap: 7px;
+  }
+  .next-year svg {
+    width: 16px;
+    height: 16px;
+  }
+  .end-key {
+    display: none;
+  }
+  .map-heading {
+    top: 23px;
+    left: 20px;
+  }
+  .map-heading > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .map-heading h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+  .map-heading p {
+    font-size: 9px;
+  }
+  .map-tools {
+    gap: 16px;
+    margin-top: 9px;
+  }
+  .map-tools .text-button {
+    font-size: 9px;
+    min-height: 34px;
+  }
+  .map-tools svg {
+    width: 14px;
+    height: 14px;
+  }
+  .planet-panel {
+    top: auto;
+    bottom: 12px;
+    right: 12px;
+    left: 12px;
+    width: auto;
+    max-height: 43%;
+    padding: 14px 17px 20px;
+    border: 1px solid #47657b80;
+    border-bottom: 0;
+    background: linear-gradient(110deg, #081726ed, #071421f5);
+    backdrop-filter: blur(12px);
+  }
+  .planet-panel > .eyebrow {
+    font-size: 7px;
+  }
+  .planet-title {
+    margin: 3px 0;
+  }
+  .planet-title h2 {
+    font-size: 26px;
+  }
+  .planet-title .icon-button {
+    min-height: 30px;
+  }
+  .ownership {
+    margin: 6px 0 13px;
+    font-size: 9px;
+  }
+  .planet-facts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 18px;
+    margin: 10px 0;
+  }
+  .planet-facts > div {
+    margin: 7px 0;
+    gap: 7px;
+  }
+  .planet-facts dt {
+    font-size: 9px;
+  }
+  .planet-facts dd {
+    font-size: 12px;
+  }
+  .planet-facts dd small {
+    font-size: 8px;
+  }
+  .planet-panel .section-label {
+    margin: 16px 0 10px;
+    font-size: 10px;
+  }
+  .building-item {
+    min-height: 58px;
+    padding: 9px 0;
+    gap: 9px;
+  }
+  .building-item strong {
+    font-size: 11px;
+  }
+  .building-item small {
+    font-size: 9px;
+  }
+  .planet-panel > .command {
+    min-height: 36px;
+    font-size: 10px;
+  }
+  .mission-strip {
+    display: none;
+  }
+  .map-instructions {
+    top: 151px;
+    bottom: auto;
+    left: 20px;
+    font-size: 7px;
+    max-width: 250px;
+  }
+  .star-directory {
+    top: 175px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    width: auto;
+    z-index: 6;
+  }
+  .star-directory h2 {
+    font-size: 19px;
+  }
+  .star-directory > button {
+    min-height: 48px;
+    font-size: 12px;
+  }
+  .star-label {
+    font-size: 9px;
+    padding: 8px;
+    min-height: 32px;
+  }
+  .fallback-labels {
+    padding: 260px 18px 410px;
+    align-content: flex-start;
+  }
+  .fallback-labels .star-label {
+    font-size: 10px;
+  }
+  .science-layout {
+    gap: 20px;
+  }
+  .branch-nav {
+    gap: 0;
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .branch-nav button {
+    min-width: 112px;
+    padding: 7px;
+    gap: 8px;
+    min-height: 55px;
+  }
+  .branch-nav button span {
+    font-size: 10px;
+  }
+  .branch-nav button small {
+    font-size: 7px;
+  }
+  .branch-nav button > svg {
+    width: 16px;
+  }
+  .research-summary {
+    gap: 12px;
+    align-items: center;
+  }
+  .research-summary .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .research-summary h2 {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  .research-summary p {
+    font-size: 9px;
+    line-height: 1.8;
+  }
+  .research-summary .command {
+    flex-shrink: 0;
+    font-size: 8px;
+    max-width: 81px;
+    padding: 8px;
+    line-height: 1.7;
+  }
+  .research-summary .command svg {
+    display: none;
+  }
+  .active-project {
+    padding: 16px;
+  }
+  .active-project h3 {
+    font-size: 19px;
+  }
+  .active-project small {
+    font-size: 9px;
+  }
+  .tech-node {
+    margin-left: calc(var(--depth) * 8px);
+    gap: 12px;
+    padding: 18px 0 11px;
+  }
+  .tech-number {
+    height: 31px;
+    width: 31px;
+    font-size: 9px;
+  }
+  .tech-node:before {
+    left: 15px;
+  }
+  .tech-node:first-child:before {
+    top: 33px;
+  }
+  .tech-node:last-child:before {
+    bottom: calc(100% - 33px);
+  }
+  .tech-content > .eyebrow {
+    font-size: 7px;
+  }
+  .tech-content h3 {
+    font-size: 16px;
+  }
+  .tech-content p {
+    font-size: 10px;
+    line-height: 1.9;
+  }
+  .tech-footer {
+    gap: 7px;
+    align-items: center;
+  }
+  .tech-footer > small {
+    font-size: 8px;
+  }
+  .tech-footer .small-button {
+    font-size: 10px;
+    padding: 6px 9px;
+    min-height: 34px;
+  }
+  .lock-reason {
+    font-size: 9px;
+    line-height: 1.7;
+  }
+  .population-overview {
+    justify-content: space-between;
+    gap: 12px;
+    padding: 19px 0;
+  }
+  .population-overview span {
+    font-size: 9px;
+  }
+  .population-overview strong {
+    font-size: 25px;
+  }
+  .toolbar {
+    gap: 8px;
+    margin: 18px 0;
+  }
+  .toolbar .eyebrow {
+    width: 100%;
+    font-size: 8px;
+    margin-bottom: 4px;
+  }
+  .toolbar .small-button {
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+  .toolbar .note {
+    font-size: 10px;
+  }
+  .toolbar label {
+    font-size: 10px;
+  }
+  .toolbar select {
+    font-size: 11px;
+    max-width: 200px;
+    min-width: 0;
+  }
+  .labor-row {
+    min-height: 76px;
+    gap: 9px;
+  }
+  .labor-row > svg {
+    width: 16px;
+    height: 16px;
+  }
+  .labor-row label strong {
+    font-size: 11px;
+  }
+  .labor-row label small {
+    font-size: 8px;
+    max-width: 135px;
+    line-height: 1.7;
+  }
+  .labor-row input[type='number'] {
+    width: 60px;
+    padding: 8px;
+    font-size: 12px;
+  }
+  .labor-row .small-button {
+    padding: 7px 9px;
+    font-size: 10px;
+    min-height: 40px;
+  }
+  .development-aside h2 {
+    font-size: 21px;
+  }
+  .development-aside .planet-facts {
+    display: block;
+  }
+  .person {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 13px;
+    padding: 22px 0;
+  }
+  .person > img {
+    width: 48px;
+    height: 48px;
+  }
+  .person-bio > .eyebrow {
+    font-size: 8px;
+  }
+  .person-bio h2 {
+    font-size: 23px;
+  }
+  .person-bio h2 small {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .person-bio p {
+    font-size: 10px;
+  }
+  .person-stats {
+    gap: 0;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  .person-stats dt {
+    font-size: 8px;
+  }
+  .person-stats dd {
+    font-size: 14px;
+  }
+  .appointment {
+    gap: 8px;
+  }
+  .appointment select {
+    font-size: 10px;
+    min-width: 0;
+  }
+  .appointment .small-button {
+    font-size: 9px;
+    padding: 7px 9px;
+    min-height: 40px;
+  }
+  .weapon-blueprint {
+    gap: 11px;
+    padding: 19px 0;
+  }
+  .weapon-blueprint > div:first-child {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    flex-shrink: 0;
+  }
+  .weapon-blueprint > div:first-child svg {
+    width: 16px;
+    height: 16px;
+  }
+  .weapon-blueprint h3 {
+    font-size: 13px;
+  }
+  .weapon-blueprint p {
+    font-size: 9px;
+  }
+  .weapon-blueprint small {
+    font-size: 8px;
+    line-height: 1.8;
+  }
+  .weapon-blueprint .small-button {
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+  .garrison h2 {
+    font-size: 21px;
+  }
+  .garrison .inline-form {
+    gap: 9px;
+  }
+  .garrison .inline-form input {
+    width: 77px;
+  }
+  .diplomacy-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .alien-list {
+    display: flex;
+    overflow: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 0 0 12px;
+    gap: 5px;
+  }
+  .alien-list button {
+    min-width: 126px;
+    padding: 10px;
+    gap: 9px;
+  }
+  .alien-list button span {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+  .alien-list button small {
+    font-size: 8px;
+  }
+  .alien-list button.active {
+    border-left: 0;
+    border-bottom: 2px solid var(--ice);
+  }
+  .alien-detail {
+    padding: 0 5px 25px;
+  }
+  .alien-emblem {
+    width: 65px;
+    height: 65px;
+    margin: 15px 0 32px;
+  }
+  .alien-emblem svg {
+    width: 40px;
+    height: 40px;
+  }
+  .alien-detail > h2 {
+    font-size: 30px;
+  }
+  .alien-detail > .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .alien-lore {
+    font-size: 15px;
+  }
+  .relation-track span {
+    font-size: 9px;
+  }
+  .alliance-progress {
+    gap: 18px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .alliance-progress > span {
+    font-size: 11px;
+  }
+  .alliance-progress strong {
+    font-size: 28px;
+  }
+  .alliance-progress .meter {
+    flex: 1;
+    width: auto;
+  }
+  .chronicle li {
+    grid-template-columns: 57px 1fr;
+    gap: 22px;
+    padding: 17px 0;
+  }
+  .chronicle li:before {
+    left: 68px;
+  }
+  .chronicle li:after {
+    left: 65px;
+    top: 22px;
+  }
+  .chronicle time strong {
+    font-size: 22px;
+  }
+  .chronicle time {
+    font-size: 7px;
+  }
+  .chronicle li > div {
+    padding-left: 6px;
+  }
+  .chronicle .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .chronicle p {
+    font-size: 11px;
+    line-height: 1.9;
+  }
+  .guide-prose h2 {
+    font-size: 20px;
+  }
+  .guide-prose p {
+    font-size: 11px;
+  }
+  .modal-backdrop {
+    padding: 15px;
+  }
+  .modal {
+    max-height: calc(100dvh - 30px);
+    padding: 32px 23px 25px;
+  }
+  .modal:before {
+    left: 23px;
+    right: 23px;
+  }
+  .modal > .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.8px;
+  }
+  .modal h2 {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 13px;
+  }
+  .modal > p {
+    font-size: 11px;
+    line-height: 1.9;
+  }
+  .modal form > label {
+    font-size: 11px;
+  }
+  .modal form > .primary {
+    font-size: 12px;
+  }
+  .modal .note {
+    font-size: 10px;
+  }
+  .pace-options label {
+    padding: 13px 10px;
+    gap: 10px;
+  }
+  .pace-options small {
+    font-size: 9px;
+  }
+  .setting-toggle {
+    margin: 20px 0;
+  }
+  .setting-toggle small {
+    font-size: 9px;
+  }
+  .save-slot {
+    gap: 9px;
+  }
+  .save-slot h3 {
+    font-size: 15px;
+  }
+  .save-slot small {
+    font-size: 8px;
+  }
+  .save-slot .small-button {
+    font-size: 10px;
+    padding: 7px 9px;
+  }
+  .save-slot > div:last-child {
+    gap: 5px;
+  }
+  .modal .toolbar .command {
+    font-size: 11px;
+  }
+  .story-overlay {
+    padding: 35px 22px;
+    align-items: center;
+    background: linear-gradient(180deg, #030b16ba, #030b16f5);
+  }
+  .story-transmission header {
+    padding-bottom: 20px;
+  }
+  .story-transmission header > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.4px;
+  }
+  .story-transmission h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+  .dialogue {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 22px 0 18px;
+    min-height: 0;
+  }
+  .speaker {
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+  }
+  .speaker img {
+    width: 47px;
+    height: 47px;
+    padding: 3px;
+  }
+  .speaker span {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .speaker small {
+    font-size: 7px;
+    margin-left: auto;
+  }
+  .dialogue-text {
+    font-size: 16px;
+    line-height: 2.1;
+    letter-spacing: 0.6px;
+    max-height: 36dvh;
+    padding-right: 4px;
+  }
+  .historical-note {
+    padding-left: 0;
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+  .story-controls {
+    gap: 12px;
+    padding-top: 19px;
+  }
+  .story-controls > .text-button {
+    font-size: 9px;
+  }
+  .story-controls > .primary {
+    font-size: 11px;
+    min-height: 44px;
+    padding: 11px 17px;
+  }
+  .story-choice {
+    min-width: 100%;
+    padding: 13px 16px;
+  }
+  .story-choice strong {
+    font-size: 12px;
+  }
+  .story-choice small {
+    font-size: 9px;
+  }
+  .story-stardate {
+    display: none;
+  }
+  .tutorial-orbit {
+    width: 76px;
+    height: 76px;
+    margin: 27px auto;
+  }
+  .tutorial-orbit svg {
+    width: 45px;
+    height: 45px;
+  }
+  .tutorial-modal h2 {
+    font-size: 22px;
+  }
+  .tutorial-modal p {
+    font-size: 12px;
+  }
+  .tutorial-modal .spread {
+    gap: 15px;
+  }
+  .tutorial-modal .primary {
+    font-size: 11px;
+    padding: 12px 17px;
+  }
+  .annual-report {
+    right: 12px;
+    left: 12px;
+    bottom: 128px;
+    width: auto;
+    padding: 15px 20px;
+    max-height: 45dvh;
+    overflow: auto;
+  }
+  .annual-report h2 {
+    font-size: 20px;
+  }
+  .report-deltas strong {
+    font-size: 18px;
+  }
+  .annual-report ul {
+    max-height: 100px;
+  }
+  .battle-overlay {
+    overflow: auto;
+    pointer-events: auto;
+    padding: 20px 14px 180px;
+    background: linear-gradient(#040d18c9, #040d18b3 35%, #040d18ec);
+  }
+  .battle-heading {
+    position: static;
+    text-align: left;
+    margin: 0 3px 24px;
+  }
+  .battle-heading > .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.2px;
+  }
+  .battle-heading h1 {
+    font-size: 25px;
+    margin: 8px 0;
+  }
+  .battle-heading p {
+    display: block;
+    font-size: 9px;
+  }
+  .battle-force {
+    position: relative;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: calc(50% - 5px);
+    display: inline-block;
+    vertical-align: top;
+    max-height: 45dvh;
+    padding: 0 11px 10px;
+    margin: 0;
+    backdrop-filter: blur(7px);
+    background: #071523d9;
+  }
+  .battle-force.enemy {
+    margin-left: 6px;
+  }
+  .battle-force .section-label {
+    font-size: 10px;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 15px 0 12px;
+  }
+  .battle-force .section-label span {
+    font-size: 7px;
+  }
+  .battle-unit {
+    padding: 12px 0;
+  }
+  .battle-unit .spread {
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .battle-unit strong {
+    font-size: 10px;
+  }
+  .battle-unit small {
+    font-size: 8px;
+  }
+  .battle-unit select {
+    font-size: 9px;
+    padding: 6px 4px;
+  }
+  .battle-log {
+    position: static;
+    text-align: left;
+    margin: 20px 3px;
+  }
+  .battle-log p {
+    font-size: 9px;
+    line-height: 1.9;
+  }
+  .battle-controls {
+    position: fixed;
+    min-height: 145px;
+    max-height: 30dvh;
+    padding: 15px 12px 20px;
+    gap: 7px;
+    justify-content: flex-start;
+  }
+  .battle-controls .primary {
+    font-size: 11px;
+    padding: 10px 13px;
+    min-height: 39px;
+  }
+  .battle-controls .command,
+  .battle-controls .danger-button {
+    font-size: 9px;
+    padding: 8px 10px;
+    min-height: 37px;
+  }
+  .battle-controls .text-button {
+    font-size: 10px;
+  }
+  .battle-controls .note {
+    font-size: 9px;
+  }
+  .battle-controls h2 {
+    font-size: 21px;
+    margin: 6px 0 10px;
+  }
+  .battle-controls > div:first-child {
+    width: 100%;
+  }
+  .negotiation-overlay {
+    padding: 25px 20px 30px;
+  }
+  .negotiation-overlay > header > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.3px;
+  }
+  .negotiation-overlay > header h1 {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  .negotiation-overlay > header p {
+    font-size: 9px;
+  }
+  .negotiation-orbit {
+    width: 55px;
+    height: 55px;
+    margin: 25px auto;
+  }
+  .negotiation-orbit svg {
+    width: 29px;
+    height: 29px;
+  }
+  .negotiation-meters {
+    gap: 20px;
+  }
+  .negotiation-meters span {
+    font-size: 9px;
+    gap: 7px;
+  }
+  .negotiation-meters strong {
+    font-size: 10px;
+  }
+  .question {
+    margin: 23px 0;
+  }
+  .question > .eyebrow {
+    font-size: 8px;
+  }
+  .question blockquote {
+    font-size: 18px;
+    line-height: 1.9;
+    min-height: 0;
+    margin: 13px 0;
+  }
+  .dip-timer {
+    font-size: 9px;
+  }
+  .theory-answers {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .theory-answers button {
+    padding: 12px;
+    min-height: 93px;
+    gap: 8px;
+  }
+  .theory-answers button:last-child {
+    grid-column: 1/-1;
+    min-height: 75px;
+  }
+  .theory-answers strong {
+    font-size: 11px;
+  }
+  .theory-answers small {
+    font-size: 8px;
+  }
+  .theory-index {
+    font-size: 8px;
+  }
+  .negotiation-content > .spread {
+    gap: 12px;
+  }
+  .negotiation-content > .spread .text-button {
+    font-size: 9px;
+  }
+  .negotiation-log p {
+    font-size: 10px;
+  }
+  .ending-overlay {
+    padding: 35px 25px;
+    justify-content: flex-start;
+  }
+  .ending-overlay > .eyebrow {
+    font-size: 8px;
+  }
+  .ending-symbol svg {
+    width: 70px;
+    height: 70px;
+    margin: 35px 0 20px;
+  }
+  .ending-overlay h1 {
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    margin: 10px 0 20px;
+  }
+  .ending-overlay > p {
+    font-size: 11px;
+  }
+  .ending-score strong {
+    font-size: 57px;
+  }
+  .ending-overlay .toolbar {
+    justify-content: center;
+  }
+  .ending-overlay .toolbar button {
+    font-size: 11px;
+  }
+  #notifications {
+    top: 75px;
+    max-width: calc(100vw - 24px);
+  }
+  .toast {
+    padding: 11px 16px;
+    font-size: 11px;
+    max-width: 100%;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 390px) {
+  .resources {
+    gap: 5px;
+  }
+  .resource strong {
+    font-size: 14px;
+  }
+  .epoch strong {
+    font-size: 19px;
+  }
+  .topbar {
+    gap: 8px;
+  }
+  .nav-utility {
+    min-width: 30px;
+  }
+  .command-nav > button {
+    min-width: 37px;
+    font-size: 7px;
+  }
+  .sector-tabs button {
+    padding: 0 3px;
+    font-size: 8px;
+  }
+  .next-year {
+    min-width: 96px;
+  }
+  .menu-copy {
+    left: 27px;
+    top: 15%;
+  }
+  .person-stats dd {
+    font-size: 12px;
+  }
+  .person-stats dt {
+    font-size: 7px;
+  }
+  .labor-row {
+    gap: 7px;
+  }
+  .labor-row > svg {
+    display: none;
+  }
+  .labor-row input[type='number'] {
+    width: 56px;
+  }
+  .tech-footer > small {
+    font-size: 7px;
+  }
+  .story-controls > .primary {
+    padding: 10px 12px;
+  }
+  .modal {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}
+@media (max-height: 670px) and (max-width: 650px) {
+  .menu-copy {
+    top: 12%;
+  }
+  .menu-copy h1 {
+    font-size: 63px;
+    margin: 14px 0 12px;
+  }
+  .menu-quote {
+    font-size: 13px;
+    margin: 14px 0;
+  }
+  .menu-primary {
+    min-height: 42px;
+    padding: 11px 0;
+  }
+  .menu-secondary {
+    min-height: 30px;
+    padding: 5px 0;
+  }
+  .menu-top {
+    font-size: 6px;
+  }
+  .menu-footer {
+    bottom: 16px;
+  }
+  .planet-panel {
+    max-height: 40%;
+  }
+  .map-instructions {
+    display: none;
+  }
+  .story-overlay {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .dialogue {
+    gap: 14px;
+    padding: 15px 0;
+  }
+  .dialogue-text {
+    max-height: 31dvh;
+    font-size: 14px;
+  }
+  .story-transmission header {
+    padding-bottom: 14px;
+  }
+  .story-transmission h1 {
+    font-size: 24px;
+  }
+  .speaker img {
+    width: 38px;
+    height: 38px;
+  }
+  .story-controls {
+    padding-top: 13px;
+  }
+  .historical-note {
+    font-size: 7px;
+    margin-bottom: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+@supports (padding: max(0px)) {
+  .bottombar {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .main-menu {
+    padding-top: max(24px, env(safe-area-inset-top));
+  }
+}

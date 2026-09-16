@@ -1,0 +1,9 @@
+dist/
+node_modules/
+.claude/
+coverage/
+playwright-report/
+test-results/
+package-lock.json
+src/content/*.generated.json
+public/assets/

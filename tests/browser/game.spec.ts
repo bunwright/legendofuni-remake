@@ -39,6 +39,8 @@ async function settleDialogue(page: Page) {
 }
 
 test('new civilization, research, annual progression and reload', async ({ page }) => {
+  // This full journey initializes high-quality WebGL twice on CI's software GPU.
+  test.slow();
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.goto('/');
